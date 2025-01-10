@@ -1,0 +1,88 @@
+# 1. Python
+########################################
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# 2. Virtual Environments
+########################################
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# 3. Testing
+########################################
+.coverage
+.tox/
+.cache/
+pytest_cache/
+coverage.xml
+htmlcov/
+
+# 4. Node / Frontend
+########################################
+# Dependencies
+node_modules/
+
+# Build output
+build/
+dist/
+*.tsbuildinfo
+
+# Yarn / PNPM
+.yarn/
+.pnpm-store/
+yarn.lock
+pnpm-lock.yaml
+
+# 5. OS- and Editor-specific
+########################################
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Editor / IDE
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# 6. Logs / Misc
+########################################
+*.log
+*.log.*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
